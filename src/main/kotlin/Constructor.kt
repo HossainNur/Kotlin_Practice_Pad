@@ -3,6 +3,8 @@ fun main(){
     println(house)
     val box = Box(12,45)
     println(box.height)
+    val add = Add(2,5)
+    println(add.c)
 }
 class House{
     val color: String = "Red"
@@ -12,4 +14,7 @@ class House{
 }
 class Box(val height: Int,weight: Int){
 
+}
+class Add(a:Int,b:Int){
+    val  c = a+b
 }
