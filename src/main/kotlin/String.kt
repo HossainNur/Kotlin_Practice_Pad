@@ -7,4 +7,7 @@ fun main() {
     val result: Boolean = myCountry.isBlank()
     println(result)
 
+    val country: String? = ""
+    println(country.isNullOrEmpty())
+
 }
