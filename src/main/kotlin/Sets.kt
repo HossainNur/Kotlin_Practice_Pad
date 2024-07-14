@@ -8,8 +8,11 @@ fun main(){
     /*for (i in newSet.indices) {
         println(newSet.elementAt(i))
     }*/
-    val itr = newSet.asIterable().iterator()
+    /*val itr = newSet.asIterable().iterator()
     while (itr.hasNext()) {
         println(itr.next())
+    }*/
+    for (i in newSet.indices) {
+        println(newSet.elementAt(i))
     }
 }
